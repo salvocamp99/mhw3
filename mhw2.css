@@ -1,0 +1,391 @@
+a{
+    cursor:pointer;
+}
+a.button{
+border:3px solid black;
+padding:15px 20px;
+border-radius: 20px;
+}
+a.button:hover{
+background-color:white ;
+color:black;
+}
+
+body{
+color: black;
+font-family: 'Inter',serif;
+font-size:20px;
+margin:0;
+width:100%;
+}
+.button,header nav,
+footer h1,h2{
+font-family: "Open Sans",sans-serif;
+font-style: normal;
+text-transform: uppercase;
+}
+
+
+header{
+    color:lightgray;
+    height: 700px;
+    margin-right: 0;
+    background-image:url(https://www.agrodolce.it/app/uploads/2014/02/Comandante-32-980x603.jpg );
+    background-size:cover;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+}
+#overlay{
+    background-color:rgba(0, 0, 0, .3);
+    position:absolute;
+    top: 0; 
+    bottom:0;
+    height: 100%;
+    width: 100%;
+    }
+
+
+header nav{
+    background-color:rgb(231, 226, 226);
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    font-size:18px;
+    padding:20px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+nav #flex-conteiner{
+    display:flex ;
+    flex-direction:row;
+    color: rgba(250, 243, 243, 0.750);
+    justify-content:space-between;
+    align-items: center;
+    padding-left:none;
+    border-bottom:2px solid grey ;
+    font-weight: bold;
+    height: 70px;
+    flex-grow: 1;
+
+
+}
+nav #flex-conteiner a{
+color:black;
+border-right:2px solid black ;
+padding:10px 12px;
+margin: 0;
+}
+nav div img{
+display: flex;
+width:350px;
+height:50px;
+
+}
+
+#flex-conteiner a:hover{
+background-color: white;
+color:black;
+}
+#menu{
+    display:none;
+}
+#menu div{
+  width:35px;
+  height: 3px;
+  background-color:rgba(250, 243, 243, 0.750);
+  margin:7px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    align-items: center;
+    background-color:rgb(202, 202, 201);
+}
+
+section h1{
+    font-size:40px ;
+    font-family:"Roboto",sans-serif ;
+    font-weight:bold ;
+    font-style:italic ;
+    text-align: center;
+
+}
+
+#testo1{
+    width:1000px;
+    text-align: left;
+    margin-top:40px;
+    margin-bottom:10px;
+    color:black;
+    font-size:35px ;
+    font-weight:600;
+    
+}
+
+.ristoranti div.hidden{
+    display: none;
+}
+
+
+.hidden{
+    display:none;
+}
+.testo{
+    width:700px;
+    text-align: left;
+    margin-top:40px;
+    margin-bottom:10px;
+    color:black;
+    font-size:35px ;
+    font-weight:600;
+}
+
+.ristoranti{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: top;
+    width:1000px;
+    background-color:lightblue;
+}
+
+#choice.ristoranti{
+    margin-bottom: 100px;
+}
+
+.ristoranti div{
+    display: flex;
+    flex-direction: column;
+    justify-content:top;
+    align-items: center;
+    width:300px;
+    height:350px;
+    border:3px solid black;
+    margin:15px 5px;
+    position:relative;
+}
+
+.ristoranti div img{
+    margin-top: 10px;
+    width:200px;
+    height:150px;
+}
+
+.ristoranti div h1{
+    font-size: 27px;
+    font-family:"Montserrat",sans-serif;
+    font-weight: bold;
+    font-style:italic ;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.ristoranti div a{
+    font-size:18px;
+    position:absolute;
+    bottom:30px;
+    font-style: italic;
+    font-weight: bold;
+    color:black;
+}
+
+.ristoranti div p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:"Monteserrat",sans-serif ;
+    font-weight:normal;
+    font-style: oblique;
+    text-align: center;
+}
+#nascondi{
+    color:black;
+    font-weight: bold;
+    font-size:18px;
+    font-style:italic;
+}
+#choice div.chosen{
+height: auto;
+}
+#aggiungi{
+    position:absolute;
+    width:35px;
+    height:35px;
+    top:2;
+    right:5px;
+}
+
+#elimina{
+    position:absolute;
+    width:35px;
+    height:35px;
+    top:0;
+    right:0;
+}
+
+#listaRistoranti{
+    display: flex;
+    width:1000px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+#ricerca{
+    height:20px;
+    margin-bottom: 5px; 
+    width:20%;
+}
+p{
+    font-size:15px;
+    margin-bottom: 7px;
+    color:black;
+}
+footer{
+    border-top:4px solid white;
+    background-color:rgb(30, 30, 30);
+    padding:40px;
+    height:250px;
+    
+    
+    }
+    footer div img{
+      display:flex;
+      height:50px;
+      width:350px;
+    
+    }
+    footer h1,h2{
+    font-size:30px;
+    line-height:60px;
+    font-weight: normal;
+    font-style: normal;
+    color:lightgray;
+    text-align: center;
+    }
+    footer p{
+    font-size:20px ;
+    font-weight:bold;
+    font-style:oblique;
+    color:slategray; 
+    text-align: left;
+    }
+
+ @media(max-width:500px){
+body{
+font-size: 25px;
+}
+header{
+    height:600px;
+    width:1080px;
+    }
+    nav #flex-conteiner img{
+        height:50px;
+        width:250px;
+        }
+        nav #flex-conteiner{
+        flex-direction:column;
+        justify-content: space-between;
+        align-items:flex-start ;
+        width:1020px;
+        }
+      #flex-conteiner a{
+        display:none;
+      }
+      #menu{
+      display:block;
+      }  
+      section{
+    height:auto;
+    width:1080px;
+      }
+      section h1{
+    font-size:1.8em ;
+      }
+      #testo1{
+          font-size:1.5em;
+
+      }
+      .testo{
+          font-size:1.5em;
+
+      }
+      .ristoranti{
+        width:1000px;
+      }
+      .ristoranti div{
+    margin:20px 8px;
+    width:350px;
+    height:400px;
+      }
+      .ristoranti div img{
+    margin-top:15px ;
+    width:220px;
+    height:150px;
+      }
+      .ristoranti div h1{
+    font-size:1.2em ;
+    margin-top:15px ;
+
+      }
+      .ristoranti div a{
+        font-size:1em;
+        bottom:35px;
+
+      }
+      .ristoranti div p{
+          font-size:0.9em ;
+
+
+        }
+        #aggiungi{
+        width: 40px;
+        height: 40px;
+        right:10px;
+        }
+        #nascondi{
+        font-size:1em;
+        }
+        #elimina{
+        width:40px;
+        height:40px;
+        right:10px;
+        
+      }
+      p{
+    font-size:0.8em ;
+      }
+
+
+      
+      footer{
+        height:300px;
+        width:1000px;
+        }
+        footer div img{
+        height:50px;
+        width:250px;
+        
+        }
+        footer h1,h2{
+        font-size:1.8em;
+        text-align: center;
+        line-height:1.4em ;
+        text-align:center;
+        }
+        footer p{
+          font-size:1.4em;
+          text-align:center;
+    
+        }
+        
+        }  
+ 

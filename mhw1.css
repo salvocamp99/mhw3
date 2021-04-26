@@ -1,0 +1,380 @@
+a{
+    cursor:pointer;
+}
+a.button{
+border:3px solid black;
+padding:15px 20px;
+border-radius: 20px;
+}
+a.button:hover{
+    background-color:white;
+    color:black;
+}
+
+
+body{
+color: black;
+font-family: 'Inter',serif;
+font-size:20px;
+margin:0;
+width:100%;
+}
+.button,header nav,header h1 strong,
+footer h1,h2,div a.button,.main h6{
+font-family: "Open Sans",sans-serif;
+font-style: normal;
+text-transform: uppercase;
+}
+
+h1 a.button{
+    border:3.5px solid black;
+    padding :10px 10px;
+    border-radius:30px;
+    background-color:brown;
+    font-size:25px ;
+    
+    }
+    h1 a.button:hover{
+    background-color:brown;
+    color:black;
+
+    
+    }
+header{
+    color:lightgray;
+    height: 700px;
+    background-image:url(https://www.ilgiornaledelcibo.it/wp-content/uploads/2017/10/tagliere-ulivo.jpg );
+    background-size:cover;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+}
+#overlay{
+    background-color:rgba(0, 0, 0, .3);
+    position:absolute;
+    top: 0; 
+    bottom:0;
+    height: 100%;
+    width: 100%;
+    }
+header h1{
+font-size:25px ;
+line-height:60px;
+text-align: center;
+font-weight: bold;
+z-index:1;
+
+}
+header h1 a{
+font-size:25px;
+}
+
+ header h1 strong{
+    font-size:40px;
+    color:brown;
+    background-color:lightgray ;
+}
+
+header nav{
+    background-color:rgb(231, 226, 226);
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    font-size:20px;
+    padding:30px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    height: 70px;
+}
+nav #flex-conteiner{
+  width:100%;
+    display:flex ;
+    flex-direction:row;
+    color: rgba(250, 243, 243, 0.750);
+    justify-content:space-between;
+    align-items: center;
+    padding-left:none;
+    border-bottom:2px solid grey ;
+    font-weight: bold;
+    flex-grow: 1;
+}
+nav #flex-conteiner a{
+color:black;
+border-right:2px solid black ;
+padding:10px 12px;
+margin: 0;
+}
+nav #flex-conteiner img{
+display: flex;
+width:350px;
+height:50px;
+
+}
+
+#flex-conteiner a:hover{
+background-color: white;
+color:black;
+}
+#menu{
+    display:none;
+}
+#menu div{
+  width:35px;
+  height: 3px;
+  background-color:rgba(250, 243, 243, 0.750);
+  margin:7px;
+}
+
+section{
+background-color:rgb(202, 202, 201) ;
+text-align:center;
+height: 2450px;
+}
+.main{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center ;
+    height:400px ;
+    width:100%;
+
+}
+.main div{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    flex-grow: 1;
+    padding:20px;
+}
+.main img{
+    width: 350px;
+    height:280px;
+}
+.main h6{
+font-size:15px ;
+font-style:normal ;
+text-align: center;
+}
+
+div p,div h3{
+  font-family: "Montserrat",sans-serif;
+  font-weight:bold;
+  text-align:center; 
+}
+div p {
+
+    font-size:35px;
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+  }
+  
+ 
+ div h3 {
+font-size:45px;
+color:black;
+margin-left: auto;
+margin-right: auto;
+width:50%;
+
+  }
+ 
+  
+  .main-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    height:750px;
+    width:100%;
+
+  }
+  .main-conteiner div {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    flex-grow: 1;
+    padding: 40px;
+  }
+  
+  .main-conteiner img { 
+    width:550px ;
+    height:309px; 
+  
+
+  }
+ 
+  
+  .main-conteiner h1 {
+    color: brown;
+    font-size:30px;
+    font-weight: normal;
+    font-style: oblique;
+    text-align: center;
+  }
+  
+ 
+  
+  .main-conteiner p {
+    font-size:20px;
+    font-family:"Roboto",sans-serif ;
+    font-weight:normal ;
+    font-style: italic;
+    line-height:25px;
+    text-align:center;
+  }
+  div a.button{
+  border:3px solid black;
+  padding-top:10px;
+  padding-left:15px;
+  border-radius:20px;
+  }
+  div a.button:hover{
+    background-color:white;
+    color:grey;
+  }
+  footer{
+    border-top:4px solid white;
+    background-color:rgb(30, 30, 30);
+    padding:40px;
+    height:250px;
+    
+    }
+    footer div img{
+      display:flex;
+      height:50px;
+      width:350px;
+    
+    }
+    footer h1,h2{
+    font-size:30px;
+    line-height:60px;
+    font-weight: normal;
+    font-style: normal;
+    color:lightgray;
+    text-align: center;
+    }
+    footer p{
+    font-size:20px ;
+    font-weight:bold;
+    font-style:oblique;
+    color:slategray; 
+    text-align: left;
+    }
+    @media(max-width:500px){
+      body{
+        font-size:25px;
+      }
+      h1 a.button{
+      font-size:1em;
+      }
+      header{
+        height:600px;
+        width:1080px;
+        }
+        header h1{
+        line-height:1em;
+        }
+        header h1 strong{
+        font-size:1.2em;
+        line-height:2em;
+        text-align:left;
+        }
+      nav #flex-conteiner img{
+      height:50px;
+      width:250px;
+      }
+      nav #flex-conteiner{
+      flex-direction:column;
+      justify-content: space-between;
+      align-items:flex-start ;
+      width:1020px;
+      }
+    #flex-conteiner a{
+      display:none;
+    }
+    #menu{
+    display:block;
+    }  
+    
+    section{
+      height:5500px;
+    width:1080px;
+    }
+    div h3{
+    font-size:2em;
+    text-align:center;
+    }
+    div p{
+    font-size:1.4em;
+    text-align:center;
+    }
+    
+    .main{
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    height:650px;
+    width: 1080px;
+    flex-grow:1
+    }
+    .main img{
+      width:260px;
+      height:200px;  
+    }
+.main h6{
+  font-size:0.6em ;
+}
+    .main-conteiner{
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    height:2000px;
+    width:1080px;
+    flex-grow:1;
+    }
+    .main-conteiner h1{
+    font-size:1.6em;
+    }
+    .main-conteiner p{
+      font-size:1.2em;
+      line-height:1.4em ;
+      text-align:left ;
+    }
+    .main-conteiner img{
+    width:600px;
+    height:309px;
+    }
+    div a.button{
+      font-size:1em;
+      }
+    footer{
+    height:300px;
+    width:1000px;
+    }
+    footer div img{
+    height:50px;
+    width:250px;
+    
+    }
+    footer h1,h2{
+    font-size:1.8em;
+    text-align: center;
+    line-height:1.4em ;
+    text-align:center;
+    }
+    footer p{
+      font-size:1.4em;
+      text-align:center;
+
+    }
+    
+    }
